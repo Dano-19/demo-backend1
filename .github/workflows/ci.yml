@@ -18,9 +18,9 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Set up Node.js
-        uses: actions/steup-node@v2
+        uses: actions/setup-node@v2
 
-      - name: Install dependdencies
+      - name: Install dependencies
         run: npm install
 
       - name: Run test
